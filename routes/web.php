@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+Route::get('/', 'LandingController@index');
+Route::resource('landing', 'LandingController');
 
 Auth::routes();
 
