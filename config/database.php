@@ -46,7 +46,7 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => '107.152.33.78',
+            'host' => 'winihwicaksono.com',
             'port' =>  '3306',
             'database' => 'db_udb',
             'username' => 'root',
